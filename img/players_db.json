@@ -1,0 +1,876 @@
+{
+  "TEAM_DB": [
+    {
+      "team": "okc",
+      "position": "pg",
+      "name": "S. Gilgeous-Alexander",
+      "fileName": "okc_pg_gilgeous_alexander.png",
+      "isStar": true
+    },
+    {
+      "team": "okc",
+      "position": "sg",
+      "name": "Jalen Williams",
+      "fileName": "okc_sg_williams_j.png",
+      "isStar": false
+    },
+    {
+      "team": "okc",
+      "position": "sf",
+      "name": "Luguentz Dort",
+      "fileName": "okc_sf_dort.png",
+      "isStar": false
+    },
+    {
+      "team": "okc",
+      "position": "pf",
+      "name": "Jaylin Williams",
+      "fileName": "okc_pf_williams_jay.png",
+      "isStar": false
+    },
+    {
+      "team": "okc",
+      "position": "c",
+      "name": "Chet Holmgren",
+      "fileName": "okc_c_holmgren.png",
+      "isStar": false
+    },
+    {
+      "team": "okc",
+      "position": "c",
+      "name": "Isaiah Hartenstein",
+      "fileName": "okc_c_isaiah_hartenstein.png",
+      "isStar": false
+    },
+    {
+      "team": "okc",
+      "position": "sg",
+      "name": "Alex Caruso",
+      "fileName": "okc_sg_alex_michael_caruso.png",
+      "isStar": false
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "pg",
+      "name": "Jamal Murray",
+      "fileName": "denver_nuggets_pg_jamal_murray.png",
+      "isStar": true
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "sg",
+      "name": "Christian Braun",
+      "fileName": "denver_nuggets_sg_christian_braun.png",
+      "isStar": false
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "sf",
+      "name": "Payton Watson",
+      "fileName": "denver_nuggets_sf_payton_watson.png",
+      "isStar": false
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "pf",
+      "name": "Aron Gordon",
+      "fileName": "denver_nuggets_pf_aron_gordon.png",
+      "isStar": true
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "pf",
+      "name": "Cameron Johnson",
+      "fileName": "denver_nuggets_pf_cameron_johnson.png",
+      "isStar": false
+    },
+    {
+      "team": "denver_nuggets",
+      "position": "c",
+      "name": "Nikola Jokic",
+      "fileName": "denver_nuggets_c_nikola_jokic.png",
+      "isStar": true
+    },
+    {
+      "team": "pacers",
+      "position": "pg",
+      "name": "Tyrese Haliburton",
+      "fileName": "pacers_pg_haliburton.png",
+      "isStar": true
+    },
+    {
+      "team": "pacers",
+      "position": "sg",
+      "name": "Andew Nembhard",
+      "fileName": "pacers_sg_andrew_nembhard.png",
+      "isStar": false
+    },
+    {
+      "team": "pacers",
+      "position": "pg",
+      "name": "T.J. McConnell",
+      "fileName": "pacers_pg_t_j_mcconnell.png",
+      "isStar": false
+    },
+    {
+      "team": "pacers",
+      "position": "sf",
+      "name": "Aaron Nesmith",
+      "fileName": "pacers_sf_aaron_nesmith.png",
+      "isStar": false
+    },
+    {
+      "team": "pacers",
+      "position": "pf",
+      "name": "Pascal Siakam",
+      "fileName": "pacers_pf_siakam.png",
+      "isStar": false
+    },
+    {
+      "team": "pacers",
+      "position": "pf",
+      "name": "Obi Toppin",
+      "fileName": "pacers_pf_obi_toppin.png",
+      "isStar": false
+    },
+    {
+      "team": "pacers",
+      "position": "c",
+      "name": "Isaiah Jackson",
+      "fileName": "pacers_c_isaiah_jackson.png",
+      "isStar": false
+    },
+    {
+      "team": "bulls",
+      "position": "pg",
+      "name": "Josh Giddey",
+      "fileName": "bulls_pg_josh_giddey.png",
+      "isStar": false
+    },
+    {
+      "team": "bulls",
+      "position": "sf",
+      "name": "Scottie Pippen",
+      "fileName": "bulls_sf_scottie_pippen.png",
+      "isStar": true
+    },
+    {
+      "team": "bulls",
+      "position": "sg",
+      "name": "Michael Jordan",
+      "fileName": "bulls_sg_michael_jordan.png",
+      "isStar": true
+    },
+    {
+      "team": "bulls",
+      "position": "c",
+      "name": "Nikola Vucevic",
+      "fileName": "bulls_c_nikola_vucevic.png",
+      "isStar": false
+    },
+    {
+      "team": "bulls",
+      "position": "pf",
+      "name": "Dennis Rodman",
+      "fileName": "bulls_pf_dennis_rodman.png",
+      "isStar": true
+    },
+    {
+      "team": "bulls",
+      "position": "pg",
+      "name": "Yuki Kawamura",
+      "fileName": "bulls_pg_yuki_kawamura.png",
+      "isStar": false
+    },
+    {
+      "team": "bulls",
+      "position": "pf",
+      "name": "Patrick Williams",
+      "fileName": "bulls_pf_patrick_williams.png",
+      "isStar": false
+    },
+    {
+      "team": "boston_celtics",
+      "position": "sg",
+      "name": "Derrick White",
+      "fileName": "boston_celtics_sg_derrick_white.png",
+      "isStar": false
+    },
+    {
+      "team": "boston_celtics",
+      "position": "pg",
+      "name": "Payton Pritchard",
+      "fileName": "boston_celtics_pg_payton_michael_pritchard.png",
+      "isStar": false
+    },
+    {
+      "team": "boston_celtics",
+      "position": "pf",
+      "name": "Jayson Tatum",
+      "fileName": "boston_celtics_pf_jayson_christopher_tatum.png",
+      "isStar": true
+    },
+    {
+      "team": "boston_celtics",
+      "position": "c",
+      "name": "Nikola Vucevic",
+      "fileName": "boston_celtics_c_nikola_vučević.png",
+      "isStar": false
+    },
+    {
+      "team": "boston_celtics",
+      "position": "c",
+      "name": "Neemias Queta",
+      "fileName": "boston_celtics_c_neemias_queta.png",
+      "isStar": false
+    },
+    {
+      "team": "boston_celtics",
+      "position": "sf",
+      "name": "Jaylen Brown",
+      "fileName": "boston_celtics_sf_jaylen_marselles_brown.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "pg",
+      "name": "Aaron Nesmith",
+      "fileName": "orlando_magic_pg_jalen_suggs.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "sg",
+      "name": "Desmond Bane",
+      "fileName": "orlando_magic_sg_desmond_bane.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "sf",
+      "name": "Franz Wagner",
+      "fileName": "orlando_magic_sf_franz_wagner.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "pg",
+      "name": "Anthony Black",
+      "fileName": "orlando_magic_pg_anthony_black.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "pf",
+      "name": "Paolo Banchero",
+      "fileName": "orlando_magic_pf_paolo_banchero.png",
+      "isStar": true
+    },
+    {
+      "team": "orlando_magic",
+      "position": "c",
+      "name": "Jaonathan Isaac",
+      "fileName": "orlando_magic_pf_jonathan_isaac.png",
+      "isStar": false
+    },
+    {
+      "team": "orlando_magic",
+      "position": "c",
+      "name": "Wendell Carter Jr.",
+      "fileName": "orlando_magic_c_wendell_carter_jr.png",
+      "isStar": false
+    },
+    {
+      "team": "lakers",
+      "position": "c",
+      "name": "Deandre Ayton",
+      "fileName": "lakers_c_deandre_ayton.png",
+      "isStar": false
+    },
+    {
+      "team": "lakers",
+      "position": "pf",
+      "name": "Rui Hachimura",
+      "fileName": "lakers_pf_rui_hachimura.png",
+      "isStar": false
+    },
+    {
+      "team": "lakers",
+      "position": "pg",
+      "name": "Luka Dončić",
+      "fileName": "lakers_pg_luka_dončić.png",
+      "isStar": true
+    },
+    {
+      "team": "lakers",
+      "position": "sg",
+      "name": "Austin Reaves",
+      "fileName": "lakers_sg_austin_reaves.png",
+      "isStar": false
+    },
+    {
+      "team": "lakers",
+      "position": "sf",
+      "name": "LeBron James",
+      "fileName": "lakers_sf_leBron_james.png",
+      "isStar": true
+    },
+    {
+      "team": "lakers",
+      "position": "sg",
+      "name": "Luke Kennard",
+      "fileName": "lakers_sg_luke_kennard.png",
+      "isStar": false
+    },
+    {
+      "team": "bucks",
+      "position": "c",
+      "name": "Myles Turner",
+      "fileName": "bucks_c_myles_turner.png",
+      "isStar": false
+    },
+    {
+      "team": "bucks",
+      "position": "c",
+      "name": "Ousmane Dieng",
+      "fileName": "bucks_c_ousmane_dieng.png",
+      "isStar": false
+    },
+    {
+      "team": "bucks",
+      "position": "pf",
+      "name": "Giannis Antetokounmpo",
+      "fileName": "bucks_pf_giannis_antetokounmpo.png",
+      "isStar": true
+    },
+    {
+      "team": "bucks",
+      "position": "pg",
+      "name": "Ryan Rollins",
+      "fileName": "bucks_pg_ryan_rollins.png",
+      "isStar": false
+    },
+    {
+      "team": "bucks",
+      "position": "sf",
+      "name": "Taurean Prince",
+      "fileName": "bucks_sf_taurean_prince.png",
+      "isStar": false
+    },
+    {
+      "team": "bucks",
+      "position": "sg",
+      "name": "Gary Trent Jr.",
+      "fileName": "bucks_sg_gary_trent_jr.png",
+      "isStar": false
+    },
+    {
+      "team": "timberwolves",
+      "position": "c",
+      "name": "Julius Randle",
+      "fileName": "timberwolves_c_julius_randle.png",
+      "isStar": true
+    },
+    {
+      "team": "timberwolves",
+      "position": "c",
+      "name": "Rudy Gobert",
+      "fileName": "timberwolves_c_rudy_gobert.png",
+      "isStar": true
+    },
+    {
+      "team": "timberwolves",
+      "position": "pf",
+      "name": "Naz Reid",
+      "fileName": "timberwolves_pf_naz_reid.png",
+      "isStar": false
+    },
+    {
+      "team": "timberwolves",
+      "position": "pg",
+      "name": "Mike Conley",
+      "fileName": "timberwolves_pg_mike_conley.png",
+      "isStar": false
+    },
+    {
+      "team": "timberwolves",
+      "position": "sf",
+      "name": "Jaden McDaniels",
+      "fileName": "timberwolves_sf_jaden_mcdaniels.png",
+      "isStar": false
+    },
+    {
+      "team": "timberwolves",
+      "position": "sg",
+      "name": "Anthony Edwards",
+      "fileName": "timberwolves_sg_anthony_edwards.png",
+      "isStar": true
+    },
+    {
+      "team": "miami_heat",
+      "position": "c",
+      "name": "Bam Adebayo",
+      "fileName": "miami_heat_c_edrice_femi_adebayo.png",
+      "isStar": true
+    },
+    {
+      "team": "miami_heat",
+      "position": "pf",
+      "name": "Nikola Jović",
+      "fileName": "miami_heat_pf_nikola_jović.png",
+      "isStar": false
+    },
+    {
+      "team": "miami_heat",
+      "position": "pg",
+      "name": "Davion Mitchell ",
+      "fileName": "miami_heat_pg_davion_demonte_earl_mitchell.png",
+      "isStar": false
+    },
+    {
+      "team": "miami_heat",
+      "position": "sg",
+      "name": "Norman Powell",
+      "fileName": "miami_heat_sg_norman_w_c_powell.png",
+      "isStar": false
+    },
+    {
+      "team": "miami_heat",
+      "position": "sf",
+      "name": "Andrew Wiggins",
+      "fileName": "miami_heat_sf_andrew_christian_wiggins.png",
+      "isStar": true
+    },
+    {
+      "team": "miami_heat",
+      "position": "sg",
+      "name": "Tyler Herro",
+      "fileName": "miami_heat_sg_tyler_christopher_herro.png",
+      "isStar": true
+    },
+    {
+      "team": "spurs",
+      "position": "c",
+      "name": "Victor Wembanyama",
+      "fileName": "spurs_c_victor_wembanyama.png",
+      "isStar": true
+    },
+    {
+      "team": "spurs",
+      "position": "pf",
+      "name": "Carter Bryant",
+      "fileName": "spurs_pf_carter_bryant.png",
+      "isStar": false
+    },
+    {
+      "team": "spurs",
+      "position": "pg",
+      "name": "Devin Vassell",
+      "fileName": "spurs_pg_devin_vassell.png",
+      "isStar": false
+    },
+    {
+      "team": "spurs",
+      "position": "pg",
+      "name": "Dylan Harper",
+      "fileName": "spurs_pg_dylan_harper.png",
+      "isStar": false
+    },
+    {
+      "team": "spurs",
+      "position": "sf",
+      "name": "Julian Champagnie",
+      "fileName": "spurs_sf_julian_champagnie_.png",
+      "isStar": false
+    },
+    {
+      "team": "spurs",
+      "position": "sg",
+      "name": "Stephon Castle",
+      "fileName": "spurs_sg_stephon_castle.png",
+      "isStar": false
+    },
+    {
+      "team": "clippers",
+      "position": "c",
+      "name": "Brook Lopez",
+      "fileName": "clippers_c_brook_lopez.png",
+      "isStar": false
+    },
+    {
+      "team": "clippers",
+      "position": "pf",
+      "name": "Derrick Jones Jr.",
+      "fileName": "clippers_pf_derrick_jones_jr.png",
+      "isStar": false
+    },
+    {
+      "team": "clippers",
+      "position": "pf",
+      "name": "Nicolas Batum",
+      "fileName": "clippers_pf_nicolas_batum.png",
+      "isStar": false
+    },
+    {
+      "team": "clippers",
+      "position": "pg",
+      "name": "Darius Garland",
+      "fileName": "clippers_pg_darius_garland.png",
+      "isStar": true
+    },
+    {
+      "team": "clippers",
+      "position": "sf",
+      "name": "Kawhi Leonard",
+      "fileName": "clippers_sf_kawhi_leonard.png",
+      "isStar": true
+    },
+    {
+      "team": "clippers",
+      "position": "sg",
+      "name": "Kris Dunn",
+      "fileName": "clippers_sg_kris_dunn.png",
+      "isStar": false
+    },
+    {
+      "team": "rockets",
+      "position": "c",
+      "name": "Alperen Şengün",
+      "fileName": "rockets_c_alperen_sengün.png",
+      "isStar": true
+    },
+    {
+      "team": "rockets",
+      "position": "pf",
+      "name": "Jabari Smith Jr.",
+      "fileName": "rockets_pf_jabari_smith_jr.png",
+      "isStar": false
+    },
+    {
+      "team": "rockets",
+      "position": "pg",
+      "name": "Fred VanVleet",
+      "fileName": "rockets_pg_fred_vanvleet.png",
+      "isStar": false
+    },
+    {
+      "team": "rockets",
+      "position": "pg",
+      "name": "Reed Sheppard",
+      "fileName": "rockets_pg_reed_sheppard.png",
+      "isStar": false
+    },
+    {
+      "team": "rockets",
+      "position": "sf",
+      "name": "Kevin Durant",
+      "fileName": "rockets_sf_kevin_durant.png",
+      "isStar": true
+    },
+    {
+      "team": "rockets",
+      "position": "sg",
+      "name": "Amen Thompson",
+      "fileName": "rockets_sg_amen_thompson.png",
+      "isStar": false
+    },
+    {
+      "team": "knicks",
+      "position": "c",
+      "name": "Karl-Anthony Towns",
+      "fileName": "knicks_c_karl_anthony_towns.png",
+      "isStar": true
+    },
+    {
+      "team": "knicks",
+      "position": "c",
+      "name": "Mitchell Robinson",
+      "fileName": "knicks_c_mitchell_robinson.png",
+      "isStar": false
+    },
+    {
+      "team": "knicks",
+      "position": "pf",
+      "name": "Og Anunoby",
+      "fileName": "knicks_pf_og_anunoby.png",
+      "isStar": false
+    },
+    {
+      "team": "knicks",
+      "position": "pg",
+      "name": "Jalen Brunson",
+      "fileName": "knicks_pg_jalen_brunson.png",
+      "isStar": true
+    },
+    {
+      "team": "knicks",
+      "position": "sf",
+      "name": "Mikal Bridges",
+      "fileName": "knicks_sf_mikal_bridges.png",
+      "isStar": false
+    },
+    {
+      "team": "knicks",
+      "position": "sg",
+      "name": "Josh Hart",
+      "fileName": "knicks_sg_josh_hart.png",
+      "isStar": false
+    },
+    {
+      "team": "pelicans",
+      "position": "c",
+      "name": "Derik Queen",
+      "fileName": "pelicans_c_derik_queen.png",
+      "isStar": false
+    },
+    {
+      "team": "pelicans",
+      "position": "c",
+      "name": "Kevon Looney",
+      "fileName": "pelicans_c_kevon_looney.png",
+      "isStar": false
+    },
+    {
+      "team": "pelicans",
+      "position": "pf",
+      "name": "Zion Williamson",
+      "fileName": "pelicans_pf_zion_williamson.png",
+      "isStar": true
+    },
+    {
+      "team": "pelicans",
+      "position": "pg",
+      "name": "Dejounte Murray",
+      "fileName": "pelicans_pg_dejounte_murrary.png",
+      "isStar": false
+    },
+    {
+      "team": "pelicans",
+      "position": "sf",
+      "name": "Saddiq Bey",
+      "fileName": "pelicans_sf_saddiq_bey.png",
+      "isStar": false
+    },
+    {
+      "team": "mavericks",
+      "position": "c",
+      "name": "Daniel Gafford",
+      "fileName": "mavericks_c_daniel_gafford.png",
+      "isStar": false
+    },
+    {
+      "team": "mavericks",
+      "position": "c",
+      "name": "Dereck Lively II",
+      "fileName": "mavericks_c_dereck_lively_ll.png",
+      "isStar": false
+    },
+    {
+      "team": "mavericks",
+      "position": "pf",
+      "name": "Cooper Flagg",
+      "fileName": "mavericks_pf_cooper_flagg.png",
+      "isStar": false
+    },
+    {
+      "team": "mavericks",
+      "position": "pg",
+      "name": "Kyrie Irving",
+      "fileName": "mavericks_pg_kyrie_irving.png",
+      "isStar": true
+    },
+    {
+      "team": "mavericks",
+      "position": "sf",
+      "name": "P.J. Washington",
+      "fileName": "mavericks_sf_p_j_washington.png",
+      "isStar": false
+    },
+    {
+      "team": "mavericks",
+      "position": "sg",
+      "name": "Klay Thompson",
+      "fileName": "mavericks_sg_klay_thompson.png",
+      "isStar": true
+    },
+    {
+      "team": "mavericks",
+      "position": "sg",
+      "name": "Max Christie",
+      "fileName": "mavericks_sg_max_christie.png",
+      "isStar": false
+    },
+    {
+      "team": "warriors",
+      "position": "c",
+      "name": "AI Horford",
+      "fileName": "warriors_c_ai_horford.png",
+      "isStar": false
+    },
+    {
+      "team": "warriors",
+      "position": "pf",
+      "name": "Draymond Green",
+      "fileName": "warriors_pf_draymond_green.png",
+      "isStar": true
+    },
+    {
+      "team": "warriors",
+      "position": "pg",
+      "name": "Stephen Curry",
+      "fileName": "warriors_pg_stephen_curry.png",
+      "isStar": true
+    },
+    {
+      "team": "warriors",
+      "position": "sf",
+      "name": "Jimmy Butler",
+      "fileName": "warriors_sf_jimmy_butler.png",
+      "isStar": true
+    },
+    {
+      "team": "warriors",
+      "position": "sg",
+      "name": "Brandin Podziemski",
+      "fileName": "warriors_sg_brandin_podziemski.png",
+      "isStar": false
+    },
+    {
+      "team": "warriors",
+      "position": "sg",
+      "name": "Moses Moody",
+      "fileName": "warriors_sg_moses_moody.png",
+      "isStar": false
+    },
+    {
+      "team": "warriors",
+      "position": "sg",
+      "name": "Seth Curry",
+      "fileName": "warriors_sg_seth_curry.png",
+      "isStar": false
+    },
+    {
+      "team": "suns",
+      "position": "c",
+      "name": "Mark Williams",
+      "fileName": "suns_c_mark_williams.png",
+      "isStar": false
+    },
+    {
+      "team": "suns",
+      "position": "pf",
+      "name": "Royce O'Neale",
+      "fileName": "suns_pf_royce_oneale.png",
+      "isStar": false
+    },
+    {
+      "team": "suns",
+      "position": "pg",
+      "name": "Devin Booker",
+      "fileName": "suns_pg_devin_booker.png",
+      "isStar": true
+    },
+    {
+      "team": "suns",
+      "position": "sf",
+      "name": "Dillon Brooks",
+      "fileName": "suns_sf_dillon_brooks.png",
+      "isStar": false
+    },
+    {
+      "team": "suns",
+      "position": "sg",
+      "name": "Grayson Allen",
+      "fileName": "suns_sg_grayson_allen.png",
+      "isStar": false
+    },
+    {
+      "team": "suns",
+      "position": "sg",
+      "name": "Jalen Green",
+      "fileName": "suns_sg_jalen_green.png",
+      "isStar": false
+    },
+    {
+      "team": "memphis",
+      "position": "c",
+      "name": "Taj Gibson",
+      "fileName": "memphis_c_taj_gibson.png",
+      "isStar": false
+    },
+    {
+      "team": "memphis",
+      "position": "c",
+      "name": "Zach Edey",
+      "fileName": "memphis_c_zach_edey.png",
+      "isStar": false
+    },
+    {
+      "team": "memphis",
+      "position": "pf",
+      "name": "Gg Jackson",
+      "fileName": "memphis_pf_gg_jackson.png",
+      "isStar": false
+    },
+    {
+      "team": "memphis",
+      "position": "sf",
+      "name": "Taylor Hendricks",
+      "fileName": "memphis_sf_taylor_hendricks.png",
+      "isStar": false
+    },
+    {
+      "team": "memphis",
+      "position": "sg",
+      "name": "Jaylen Wells",
+      "fileName": "memphis_sg_jaylen_wells.png",
+      "isStar": false
+    },
+    {
+      "team": "cavs",
+      "position": "c",
+      "name": "Evan Mobley",
+      "fileName": "cavs_c_evan_mobley.png",
+      "isStar": false
+    },
+    {
+      "team": "cavs",
+      "position": "pf",
+      "name": "Nae Quan Tomlin",
+      "fileName": "cavs_pf_nae_qwan_tomlin.png",
+      "isStar": false
+    },
+    {
+      "team": "cavs",
+      "position": "pg",
+      "name": "Dennis Schröder",
+      "fileName": "cavs_pg_dennis_schröder.png",
+      "isStar": false
+    },
+    {
+      "team": "cavs",
+      "position": "pg",
+      "name": "James Harden",
+      "fileName": "cavs_pg_james_harden .png",
+      "isStar": true
+    },
+    {
+      "team": "cavs",
+      "position": "sf",
+      "name": "Max Strus",
+      "fileName": "cavs_sf_max_strus.png",
+      "isStar": false
+    },
+    {
+      "team": "cavs",
+      "position": "sg",
+      "name": "Donovan Mitchell",
+      "fileName": "cavs_sg_donovan_mitchell.png",
+      "isStar": true
+    }
+
+  ]
+}
+    
+
+  
