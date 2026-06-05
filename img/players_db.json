@@ -625,6 +625,13 @@
     },
     {
       "team": "pelicans",
+      "position": "sg",
+      "name": "Jordan Hawkins",
+      "fileName": "pelicans_sg_jordan_hawkins.png",
+      "isStar": false
+    },
+    {
+      "team": "pelicans",
       "position": "c",
       "name": "Kevon Looney",
       "fileName": "pelicans_c_kevon_looney.png",
