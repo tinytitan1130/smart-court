@@ -15,7 +15,7 @@ const courtLogoSelect = document.getElementById('courtLogoSelect');
 let TEAM_DB = {};
 let ALL_STAR_DB = { 1: [], 2: [], 3: [], 4: [], 5: [] };
 
-const teamNameMap = { 'okc': '奧克拉荷馬雷霆', 'lakers': '洛杉磯湖人', 'warriors': '金州勇士', 'boston_celtics': '波士頓塞爾提克','pacers': '印第安納溜馬', 'denver_nuggets': '丹佛金塊','bulls': '芝加哥公牛','spurs': '聖安東尼奧馬刺', 'bucks': '密爾瓦基公鹿', 'orlando_magic': '奧蘭多魔術', 'timberwolves': '明尼蘇達灰狼','miami_heat':'邁阿密熱火','clippers':'洛杉磯快船','rockets':'休斯敦火箭','knicks':'紐約尼克','pelicans':'新奧爾良鵜鶘','mavericks':'達拉斯獨行俠','suns':'鳳凰城太陽','memphis':'孟菲斯灰熊','cavs':'克里夫蘭騎士'};
+const teamNameMap = { 'okc': '奧克拉荷馬雷霆', 'lakers': '洛杉磯湖人', 'warriors': '金州勇士', 'boston_celtics': '波士頓塞爾提克','pacers': '印第安納溜馬', 'denver_nuggets': '丹佛金塊','bulls': '芝加哥公牛','spurs': '聖安東尼奧馬刺', 'bucks': '密爾瓦基公鹿', 'orlando_magic': '奧蘭多魔術', 'timberwolves': '明尼蘇達灰狼','miami_heat':'邁阿密熱火','clippers':'洛杉磯快船','rockets':'休斯敦火箭','knicks':'紐約尼克','pelicans':'新奧爾良鵜鶘','mavericks':'達拉斯獨行俠','suns':'鳳凰城太陽','memphis':'孟菲斯灰熊','cavs':'克里夫蘭騎士','csie':'中正資工'};
 const positionNames = { 1: "1 號位 (控球後衛)", 2: "2 號位 (得分後衛)", 3: "3 號位 (小前鋒)", 4: "4 號位 (大前鋒)", 5: "5 號位 (中鋒)" };
 
 async function loadJsonDatabase() {

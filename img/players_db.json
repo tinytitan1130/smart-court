@@ -881,7 +881,93 @@
       "name": "Donovan Mitchell",
       "fileName": "cavs_sg_donovan_mitchell.png",
       "isStar": true
-    }
+    },
+    {
+      "team": "csie",
+      "position": "c",
+      "name": "LBC",
+      "fileName": "csie_c_bc.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "c",
+      "name": "中正約基奇",
+      "fileName": "csie_c_ting_wei.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pf",
+      "name": "劉教練",
+      "fileName": "csie_pf_coach_liu.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pf",
+      "name": "抱歉我睡過頭了",
+      "fileName": "csie_pf_minan.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pf",
+      "name": "小盧",
+      "fileName": "csie_pf_player3.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pf",
+      "name": "財金殺手",
+      "fileName": "csie_pf_柏鈞絕殺財金.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pg",
+      "name": "德德又在色",
+      "fileName": "csie_pg_dede.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "pg",
+      "name": "黑頭愛婉慈",
+      "fileName": "csie_pg_黑色箭頭張耀峻.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "sf",
+      "name": "豹紋褲",
+      "fileName": "csie_sf_player1.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "sf",
+      "name": "射手",
+      "fileName": "csie_sf_射手朱子承.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "sg",
+      "name": "屏東之王",
+      "fileName": "csie_sg_player2.png",
+      "isStar": true
+    },
+    {
+      "team": "csie",
+      "position": "sg",
+      "name": "禿鷹",
+      "fileName": "csie_sg_莊釋迦MVP.png",
+      "isStar": true
+    },
+
+
 
   ]
 }
