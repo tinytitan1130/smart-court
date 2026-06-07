@@ -97,38 +97,77 @@ let defensePlayers = [
 let ball = { x: 400, y: 450, targetId: "O1", isIndependent: false, isPassing: false, passTarget: null }; 
 
 // ==========================================
-// 2. 智慧選秀邏輯 (Smart Draft Logic)
+// 2. 智慧選秀邏輯 (Smart Draft Logic) + 歷史堆疊
 // ==========================================
-let globalDraftMode = ''; // 'team' or 'allstar'
-let draftSide = 'offense'; // 'offense' or 'defense'
-let draftRole = 1;         // 1 to 5
+let globalDraftMode = ''; 
+let draftSide = 'offense'; 
+let draftRole = 1;         
 let currentDraftPool = null; 
+
+// 🔴 新增：用來記錄玩家選擇路徑的堆疊 (History Stack)
+let decisionHistory = []; 
 
 function initMenuSystem() {
     document.getElementById('modeNormalBtn').onclick = () => startGame('normal');
     
     document.getElementById('modeTeamBtn').onclick = () => {
-        globalDraftMode = 'team'; draftSide = 'offense'; draftRole = 1;
+        globalDraftMode = 'team'; draftSide = 'offense'; draftRole = 1; decisionHistory = [];
         startTeamSelection();
     };
     
     document.getElementById('modeAllStarBtn').onclick = () => {
-        globalDraftMode = 'allstar'; draftSide = 'offense'; draftRole = 1;
+        globalDraftMode = 'allstar'; draftSide = 'offense'; draftRole = 1; decisionHistory = [];
         currentDraftPool = ALL_STAR_DB;
         processDraft();
     };
+
+    // 🔴 綁定選秀介面的「上一步」按鈕
+    const prevDraftBtn = document.getElementById('prevDraftBtn');
+    if (prevDraftBtn) {
+        prevDraftBtn.onclick = () => {
+            if (decisionHistory.length > 0) {
+                // 從歷史紀錄中取出上一次的狀態 (Pop)
+                let lastState = decisionHistory.pop();
+                draftSide = lastState.side;
+                draftRole = lastState.role;
+                currentDraftPool = lastState.pool;
+                processDraft(); // 重新載入該進度
+            } else {
+                // 已經退到最底了，回歸原點
+                if (globalDraftMode === 'team') startTeamSelection();
+                else location.reload();
+            }
+        };
+    }
 }
 
-// 階段一：選擇球隊 (僅限球隊模式)
+// 階段一：選擇球隊
 function startTeamSelection() {
     document.querySelectorAll('.modal-overlay').forEach(m => m.style.display = 'none');
     const modal = document.getElementById('teamSelectModal');
     const title = document.getElementById('teamSelectTitle');
     const grid = document.getElementById('teamGrid');
+    const prevTeamBtn = document.getElementById('prevTeamBtn'); 
     
     modal.style.display = 'flex';
     title.textContent = draftSide === 'offense' ? '請選擇【進攻】球隊' : '請選擇【防守】球隊';
     title.style.color = draftSide === 'offense' ? '#3498db' : '#e74c3c';
+
+    // 🔴 如果是在選防守球隊，允許退回到進攻選秀的最後一步
+    if (draftSide === 'defense') {
+        prevTeamBtn.style.display = 'block';
+        prevTeamBtn.onclick = () => {
+            if (decisionHistory.length > 0) {
+                let lastState = decisionHistory.pop();
+                draftSide = lastState.side; draftRole = lastState.role; currentDraftPool = lastState.pool;
+                processDraft();
+            } else {
+                draftSide = 'offense'; startTeamSelection();
+            }
+        };
+    } else {
+        prevTeamBtn.style.display = 'none';
+    }
 
     grid.innerHTML = '';
     Object.keys(TEAM_DB).forEach(key => {
@@ -139,9 +178,9 @@ function startTeamSelection() {
         
         card.onclick = () => {
             if (draftSide === 'offense') activeCourtLogo = team.logo; 
-            currentDraftPool = team.players; // 鎖定該球隊的球員池
+            currentDraftPool = team.players; 
             modal.style.display = 'none';
-            processDraft(); // 開始解析該球隊陣容
+            processDraft(); 
         };
         grid.appendChild(card);
     });
@@ -149,15 +188,13 @@ function startTeamSelection() {
 
 // 階段二：解析陣容與選秀分流
 function processDraft() {
-    // 檢查是否已選滿 5 人
     if (draftRole > 5) {
         if (draftSide === 'offense') {
             draftSide = 'defense';
             draftRole = 1;
             if (globalDraftMode === 'team') startTeamSelection();
-            else processDraft(); // 全明星模式繼續選防守
+            else processDraft(); 
         } else {
-            // 兩隊都選完，開戰！
             document.querySelectorAll('.modal-overlay').forEach(m => m.style.display = 'none');
             startGame(globalDraftMode);
         }
@@ -167,18 +204,14 @@ function processDraft() {
     let available = currentDraftPool[draftRole] || [];
 
     if (available.length === 0) {
-        // 例外處理：該位置沒有球員
-        alert(`${positionNames[draftRole]} 缺少球員資料，將以無大頭照方式呈現`);
         assignPlayer(null);
         draftRole++;
         processDraft();
     } else if (available.length === 1 && globalDraftMode === 'team') {
-        // 【核心優化】：球隊模式下，如果該位置只有 1 人，直接自動選取跳過！
         assignPlayer(available[0].img);
         draftRole++;
         processDraft();
     } else {
-        // 如果有 2 人以上 (例如 OKC 的 PG 或是全明星)，彈出選秀卡片讓使用者挑選
         showDraftUI(available);
     }
 }
@@ -205,10 +238,17 @@ function showDraftUI(availablePlayers) {
         card.innerHTML = `<img src="${player.img}" alt="${player.name}" onerror="this.style.opacity='0'"><h3>${player.name}</h3>`;
         
         card.onclick = () => {
+            // 🔴 關鍵邏輯：在點擊做決定前，把「當前狀態」推入歷史堆疊中
+            decisionHistory.push({
+                side: draftSide,
+                role: draftRole,
+                pool: currentDraftPool
+            });
+
             assignPlayer(player.img);
             modal.style.display = 'none';
             draftRole++;
-            processDraft(); // 遞迴呼叫處理下一個位置
+            processDraft(); 
         };
         grid.appendChild(card);
     });
