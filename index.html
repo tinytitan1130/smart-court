@@ -61,6 +61,8 @@
             /* 🔴 2. 加上下內邊距 (Padding)，讓內容不會死死貼在螢幕最邊緣 */
             padding-top: 60px;
             padding-bottom: 60px;
+            /* 🔴 加入這行：強制將 padding 算進 100% 高度內，不往外撐開！ */
+            box-sizing: border-box;
             
             z-index: 9999; color: white;
             overflow-y: auto; 
