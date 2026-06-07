@@ -834,6 +834,13 @@
       "isStar": false
     },
     {
+      "team": "memphis",
+      "position": "pg",
+      "name": "Jamel Morant",
+      "fileName": "memphis_pg_jamel_morant.png",
+      "isStar": false
+    },
+    {
       "team": "cavs",
       "position": "c",
       "name": "Evan Mobley",
